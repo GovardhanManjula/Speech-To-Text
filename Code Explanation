@@ -1,0 +1,31 @@
+HTML Structure:
+The HTML structure contains a basic layout for the application.
+It has a title "Real-time Speech to Text App".
+It includes two buttons for starting and stopping recording.
+There's a <div> element with the class result where the recognized speech will be displayed.
+
+CSS Styling:
+The CSS styles define the layout, appearance, and responsiveness of the application.
+It includes styles for buttons, container, result display area, and some animations.
+
+JavaScript:
+The JavaScript part handles speech recognition using the browser's SpeechRecognition API.
+It selects necessary elements from the HTML and defines event listeners.
+It initializes the SpeechRecognition object and sets its properties.
+When the startBtn is clicked, it starts the speech recognition process.
+When speech is recognized, it updates the resultElement with the recognized speech.
+If the recognized speech contains the phrase "stop recording", it stops the recording.
+It handles errors that may occur during the speech recognition process.
+Finally, it defines functions startRecording() and stopRecording() to start and stop the recording respectively.
+
+Overall Functionality:
+When the user clicks on the "Start Recording" button, the application starts listening to the user's speech in real-time.
+As the user speaks, the recognized speech is displayed in the result area in real-time.
+When the user clicks on the "Stop Recording" button or says "stop recording", the recording stops.
+
+Dependencies:
+The application uses the browser's SpeechRecognition API for speech recognition.
+This code provides a basic real-time speech-to-text functionality on a web page.
+
+for example the user given speech in word example Hello World 
+the Output will shows in Text format on Display it will show in Output Page
